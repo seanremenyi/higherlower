@@ -19,7 +19,7 @@ def game():
         print(f"{art.logo}\nCompare A: {first['name']}, a {first['description']} from {first['country']}")
         print(f"{art.vs}\nCompare B: {second['name']}, a {second['description']} from {second['country']}")
         
-        if input("\nWho do you believe has more instagram followers? ") == winner:
+        if input("\nWho do you believe has more instagram followers? A or B? ") == winner:
             os.system("clear")
             score += 1
             first = second
